@@ -1,0 +1,84 @@
+#one {
+  background-color: indigo;
+}
+#two {
+  background-color: gold;
+}
+#three {
+  background-color: deeppink;
+}
+#four {
+  background-color: yellowgreen;
+}
+
+#five {
+  background-color: crimson;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  border: 2px solid grey;
+  margin: 50px 2px;
+  border-radius: 20px;
+  position: relative;
+  top: 0;
+  transition: top ease 0.5s;
+
+}
+
+.box:hover{
+  top: -70px;
+  opacity: 2;
+}
+
+body{
+  text-align: center;
+  background-color: black;
+}
+
+.container{
+  display: flex;
+  margin-left: 27.5%;
+  position: absolute;
+}
+
+
+#musicia{
+	font: bold 40px Courier;
+	text-transform: uppercase;
+	color: darkgreen;
+	position: relative;
+	top: 24px;
+  display: block;
+ /* -webkit-animation: animae 2s 1;*/
+}
+
+#header{
+
+}
+#titlename{
+  font: bolder 60px Georgia;
+  color: #f1f1f1;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+	-webkit-animation: animae 3s 1;
+  position: relative;
+  display: block;
+}
+
+@-webkit-keyframes animae{
+	0%{
+		color: black;
+		margin-bottom: -40px;
+	}
+  30%{
+    letter-spacing: 25px;
+    margin-bottom: -40px;
+  }
+  85%{
+    letter-spacing: 10px;
+    margin-bottom: -40px;
+  }
+}
